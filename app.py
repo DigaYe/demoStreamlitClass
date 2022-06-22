@@ -11,7 +11,6 @@ st.header('Title of site')
 st.write('it is working!')
 st.button("OK")
 
-sp500 = pd.read_csv('StockData/SP500.csv')
 
 start= st.sidebar.date_input("Pick start date")
 end = st.sidebar.date_input('Pick end date')

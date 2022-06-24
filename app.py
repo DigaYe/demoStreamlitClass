@@ -16,12 +16,13 @@ import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide",page_title='Portfolio Analyzer')
 # %% Load Data
-@st.cache
+@st.cache(suppress_st_warning=True)
 def grabDF(Path):
     df = pd.read_excel(Path)
     df.rename(columns={"Date_": "Date"}, inplace=True)
     df.set_index('Date', inplace=True)
     df= df*100
+    st.balloons()
     return df
 
 data = grabDF('./TFM Factors.xlsx')

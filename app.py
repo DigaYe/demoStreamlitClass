@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jun 22 13:52:07 2022
-!streamlit run streamlit_demo.py
 @author: yej
 """
 

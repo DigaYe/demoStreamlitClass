@@ -24,7 +24,7 @@ def grabDF(Path):
     df= df*100
     return df
 
-data = grabDF('case study/TFM Factors.xlsx')
+data = grabDF('./TFM Factors.xlsx')
 port_name = list(data.columns)
 
 # %% Set up the dahsboard framework

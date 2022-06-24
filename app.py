@@ -29,9 +29,6 @@ port_name = list(data.columns)
 
 # %% Set up the dahsboard framework
 st.header('Portfolio Analyzer')
-primaryColor="#F63366"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
       
 # %% Side Bar Selection
 
